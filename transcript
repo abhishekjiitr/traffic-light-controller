@@ -1,0 +1,100 @@
+# Reading C:/Modeltech_pe_edu_10.4/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/abhi2_000/Desktop/Traffic Lights Controller/Traffic Lights Controller.vhd}
+vlib work
+vcom -reportprogress 300 -work work {C:/Users/abhi2_000/Desktop/Traffic Lights Controller/Traffic Lights Controller.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 22:15:52 on Apr 04,2015
+# vcom -reportprogress 300 -work work C:/Users/abhi2_000/Desktop/Traffic Lights Controller/Traffic Lights Controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity traffic
+# -- Compiling architecture trafficA of traffic
+# End time: 22:15:53 on Apr 04,2015, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim -gui work.traffic(traffica)
+# //  ModelSim PE Student Edition 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\abhi2_000\Desktop\Traffic Lights Controller\Traffic Lights Controller.vhd 
+# Start time: 22:16:09 on Apr 04,2015
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.traffic(traffica)
+add wave  \
+sim:/traffic/clk \
+sim:/traffic/red1 \
+sim:/traffic/yellow1 \
+sim:/traffic/green1 \
+sim:/traffic/red2 \
+sim:/traffic/yellow2 \
+sim:/traffic/green2 \
+sim:/traffic/red3 \
+sim:/traffic/yellow3 \
+sim:/traffic/green3 \
+sim:/traffic/red4 \
+sim:/traffic/yellow4 \
+sim:/traffic/green4 \
+sim:/traffic/state \
+sim:/traffic/count \
+sim:/traffic/lights
+force -freeze sim:/traffic/clk 0 0, 1 {50 ns} -r {100 ns}
+force -freeze sim:/traffic/clk 1 0, 0 {50 ns} -r {100 ns}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 22:37:31 on Apr 04,2015, Elapsed time: 0:21:22
+# Errors: 0, Warnings: 0

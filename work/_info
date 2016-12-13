@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/abhi2_000/Desktop/Traffic Lights Controller
+Etraffic
+Z1 w1428165889
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/abhi2_000/Desktop/Traffic Lights Controller/Traffic Lights Controller.vhd
+Z7 FC:/Users/abhi2_000/Desktop/Traffic Lights Controller/Traffic Lights Controller.vhd
+l0
+L6
+V118CXV0A@[QQ?o8GDlMl[2
+!s100 9NC=I0]S_LbYoj:cYidIN1
+Z8 OP;C;10.4;61
+32
+Z9 !s110 1428165952
+!i10b 1
+Z10 !s108 1428165952.713000
+Z11 !s90 -reportprogress|300|-work|work|C:/Users/abhi2_000/Desktop/Traffic Lights Controller/Traffic Lights Controller.vhd|
+Z12 !s107 C:/Users/abhi2_000/Desktop/Traffic Lights Controller/Traffic Lights Controller.vhd|
+!i113 1
+Z13 o-work work -O0
+Z14 tExplicit 1
+Atraffica
+R2
+R3
+R4
+R5
+DEx4 work 7 traffic 0 22 118CXV0A@[QQ?o8GDlMl[2
+l31
+L26
+VPo[^5Q]SD64SO1Qzh4GJ;1
+!s100 S0n:z@FkLg[0PN1KZZ7Fz3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
